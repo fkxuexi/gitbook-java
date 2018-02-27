@@ -1,3 +1,20 @@
-# My Awesome API
+## java学习笔记：
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+- java并发 
+
+- java集合
+
+- jvm
+
+- java设计模式
+
+- java io nio 输入输出
+
+- mysql
+
+
+
+
+
+
+
