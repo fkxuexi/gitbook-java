@@ -30,7 +30,8 @@ class ThreadStopTest extends Thread{
 
 ```java
    if (this.isInterrupted()){
-     break;
+     break;// 只是跳出当前的for循环，如果for循环外面有代码依旧会被执行
+     // 或者使用return; 停止一个线程
    }
 ```
 
@@ -39,49 +40,3 @@ class ThreadStopTest extends Thread{
 > this.interrupt() 测试当前线程有没有中断，执行后将线程的状态标识置为与当前相反的状态，第一次调用为true，第二次调用则为false，
 
 > this.isInterrupted() 只检测线程的从动态，并不清除线程的状态
-
-
-### 3.异常法：线程真的停止了吗？
-
-```java
- ThreadException threadException = new ThreadException();
- threadException.start();
- Thread.sleep(1/100);
- threadException.interrupt();
-
-class ThreadException extends Thread{
-    @Override
-    public void run() {
-        for (int i = 0; i < 100; i++) {
-            if (this.isInterrupted()){
-                break;
-            }
-            System.out.println(i);
-        }
-        System.out.println("我还是能输出");
-    }
-}
-```
-
-是的 “我还是能输出” 被输出出来了，我们可以这样理解，java对于线程的指令是无法终止cpu去执行这一块代码的，只是通过一个标志变量来进入到if的逻辑判断中，但是后面的代码依旧可以执行。当然把break换成return也能结束
-
-##### 3.1 如何禁止线程外的代码的执行的呢
-
-``` java
-class ThreadException extends Thread {
-    @Override
-    public void run() {
-        try {
-            for (int i = 0; i < 100; i++) {
-                if (this.isInterrupted()) {
-                    throw new InterruptedException();
-                }
-                System.out.println(i);
-            }
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        System.out.println("我还是能输出");
-    }
-}
-```
