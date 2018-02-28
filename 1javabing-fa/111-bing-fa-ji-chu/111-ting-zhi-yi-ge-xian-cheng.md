@@ -6,7 +6,7 @@
 
 - 3、通过interrupt来停止
 
-### interrupt 停止不了的线程
+### 2.interrupt 停止不了的线程
 
 ```java
 class ThreadStopTest extends Thread{
@@ -35,3 +35,6 @@ class ThreadStopTest extends Thread{
 > this.interrupt() 测试当前线程有没有中断，执行后将线程的状态标识置为与当前相反的状态，第一次调用为true，第二次调用则为false，
 
 > this.isInterrupted() 只检测线程的从动态，并不清除线程的状态
+
+
+### 3.线程真的停止了吗
