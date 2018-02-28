@@ -33,3 +33,13 @@ class ThreadStopTest extends Thread{
    }
 ```
 ### 3. interrupt 和isInterrupted详解：
+
+- interrupt:
+    
+    interrupt：为当前的线程设置中断标志，只有wait、join、sleep这些方法会清除线程的状态，
+ 
+- interrupted：
+
+    interrupted(static)：测试当前线程是否被中断，如果被中断则返回true，同时会清除线程的中断标志，当如果同时调用两次(两次之间没有设置先给出中断标志)则两次会返回相反的值
+
+           
