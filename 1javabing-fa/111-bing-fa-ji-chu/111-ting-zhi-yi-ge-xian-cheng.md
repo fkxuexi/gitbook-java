@@ -8,7 +8,7 @@
 
 ### interrupt 停止不了的线程
 
-```JAVA
+```java
 class ThreadStopTest extends Thread{
     @Override
     public void run() {
