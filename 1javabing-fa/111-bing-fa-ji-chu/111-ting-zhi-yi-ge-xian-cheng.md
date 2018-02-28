@@ -34,9 +34,3 @@ class ThreadStopTest extends Thread{
      // 或者使用return; 停止一个线程
    }
 ```
-
-是的，现在线程停了下来，你看到了你想要的结果，打印到50 便停止了
-
-> this.interrupt() 测试当前线程有没有中断，执行后将线程的状态标识置为与当前相反的状态，第一次调用为true，第二次调用则为false，
-
-> this.isInterrupted() 只检测线程的从动态，并不清除线程的状态
