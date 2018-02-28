@@ -29,3 +29,5 @@ class ThreadStopTest extends Thread{
      break;
    }
 ```
+
+是的，现在线程停了下来
