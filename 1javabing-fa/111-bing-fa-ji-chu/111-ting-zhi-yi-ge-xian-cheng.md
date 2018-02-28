@@ -6,7 +6,9 @@
 
 - 3、通过interrupt来停止
 
-### 2.interrupt 停止不了的线程
+- 4、异常停止
+
+### 2.interrupt 停止不了的线程？
 
 ```java
 class ThreadStopTest extends Thread{
@@ -37,7 +39,7 @@ class ThreadStopTest extends Thread{
 > this.isInterrupted() 只检测线程的从动态，并不清除线程的状态
 
 
-### 3.线程真的停止了吗
+### 3.异常法：线程真的停止了吗？
 
 ```java
  ThreadException threadException = new ThreadException();
