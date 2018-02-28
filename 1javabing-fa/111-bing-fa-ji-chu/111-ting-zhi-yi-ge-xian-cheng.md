@@ -30,4 +30,4 @@ class ThreadStopTest extends Thread{
    }
 ```
 
-是的，现在线程停了下来
+是的，现在线程停了下来，你看到了你想要的结果，打印到50 便停止了
