@@ -42,4 +42,6 @@ class ThreadStopTest extends Thread{
 
     interrupted(static)：测试当前线程是否被中断，如果被中断则返回true，同时会清除线程的中断标志，当如果同时调用两次(两次之间没有设置先给出中断标志)则两次会返回相反的值
 
-           
+- isInterrupted：
+
+    isInterrupted：这个方法返回当前线程的是否有中断标志，不会影响到中断标志          
