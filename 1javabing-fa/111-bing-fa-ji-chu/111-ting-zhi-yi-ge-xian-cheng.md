@@ -32,4 +32,4 @@ class ThreadStopTest extends Thread{
      // 或者使用return; 停止一个线程
    }
 ```
-### 3. interrupt 和isInterrupted的区别：
+### 3. interrupt 和isInterrupted详解：
