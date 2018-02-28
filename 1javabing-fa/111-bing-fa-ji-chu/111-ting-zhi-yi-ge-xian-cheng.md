@@ -4,7 +4,7 @@
 
 - 2、flag标志变量停止
 
-- 3、通过interrupt来停止
+- 3、通过interrupt来"停止"
 
 ### 2.interrupt 停止不了的线程？
 
