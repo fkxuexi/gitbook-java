@@ -38,3 +38,23 @@ class ThreadStopTest extends Thread{
 
 
 ### 3.线程真的停止了吗
+
+```java
+ ThreadException threadException = new ThreadException();
+ threadException.start();
+ Thread.sleep(1/100);
+ threadException.interrupt();
+
+class ThreadException extends Thread{
+    @Override
+    public void run() {
+        for (int i = 0; i < 100; i++) {
+            if (this.isInterrupted()){
+                break;
+            }
+            System.out.println(i);
+        }
+        System.out.println("我还是能输出");
+    }
+}
+```
