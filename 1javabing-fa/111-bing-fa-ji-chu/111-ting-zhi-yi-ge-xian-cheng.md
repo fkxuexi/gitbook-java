@@ -6,8 +6,6 @@
 
 - 3、通过interrupt来停止
 
-- 4、异常停止
-
 ### 2.interrupt 停止不了的线程？
 
 > 注意  interrupt 只能把当前线程置为中断的状态标识，并不能真正的停止一个线程，所以会导致下列的问题
@@ -34,3 +32,4 @@ class ThreadStopTest extends Thread{
      // 或者使用return; 停止一个线程
    }
 ```
+### 3. interrupt 和isInterrupted的区别：
