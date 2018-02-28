@@ -61,4 +61,25 @@ class ThreadException extends Thread{
 }
 ```
 
-是的 “我还是能输出” 被输出出来了，我们可以这样理解，java对于线程的指令是无法终止cpu去执行这一块代码的，只是通过一个标志变量来进入到if的逻辑判断中，但是后面的代码依旧可以执行
+是的 “我还是能输出” 被输出出来了，我们可以这样理解，java对于线程的指令是无法终止cpu去执行这一块代码的，只是通过一个标志变量来进入到if的逻辑判断中，但是后面的代码依旧可以执行。
+
+##### 3.1 如何禁止线程外的代码的执行的呢
+
+``` java
+class ThreadException extends Thread {
+    @Override
+    public void run() {
+        try {
+            for (int i = 0; i < 100; i++) {
+                if (this.isInterrupted()) {
+                    throw new InterruptedException();
+                }
+                System.out.println(i);
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("我还是能输出");
+    }
+}
+```
