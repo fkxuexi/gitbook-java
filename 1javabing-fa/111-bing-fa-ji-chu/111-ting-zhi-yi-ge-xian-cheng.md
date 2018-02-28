@@ -21,3 +21,11 @@ class ThreadStopTest extends Thread{
     }
 }
 ```
+
+这段代码会一直打印到99才终止，**this.interrupt();**看起并没有起作用，是的还差一段代码
+
+```java
+   if (this.isInterrupted()){
+     break;
+   }
+```
