@@ -6,4 +6,4 @@ java集合是我们最常用的工具类，程序 = 算法 + 数据结构，其�
 
 ### 可参考的链接：
 
-- [java集合相关文章](http://www.cnblogs.com/skywang12345/p/3323085.html)
+- [java集合相关文章](http://www.cnblogs.com/skywang12345/p/3323085.html) http://www.cnblogs.com/skywang12345/p/3323085.html
