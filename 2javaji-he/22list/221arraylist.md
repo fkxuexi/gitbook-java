@@ -75,7 +75,12 @@ private void grow(int minCapacity) {
  
      - for 循环需要注意的是：
      
-         
+        ```java
+        int size = list.size();
+        for(int i = 0 ; i < size ;i++){
+            //如果在这里进行元素的删除，会报IndexOutOfBoundsException
+        }
+        ```
  
  
 
