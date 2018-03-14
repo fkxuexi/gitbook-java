@@ -55,7 +55,7 @@ private void grow(int minCapacity) {
     int oldCapacity = elementData.length;
     // newCapacity  则是1.5 倍的oldCapacity，这里使用的位移操作
     int newCapacity = oldCapacity + (oldCapacity >> 1);
-    //
+    // 如果 新的容量小于 size 则新容量为size，这个判断主要是我们使用自己设置的容量来初始化List的时候使用
     if (newCapacity - minCapacity < 0)
         newCapacity = minCapacity;
     if (newCapacity - MAX_ARRAY_SIZE > 0)
