@@ -2,7 +2,7 @@
 
 有些代码还是比较简单的，但是我们需要关注里面比较核心的点
 
-- 1.ArrayList 初始化的几种方式
+- 1.ArrayList 初始化的几种方式 (初始化容量：10)
   
   ```java
   public ArrayList(int initialCapacity) {}
