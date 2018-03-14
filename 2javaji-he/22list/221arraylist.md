@@ -51,6 +51,7 @@ private void ensureExplicitCapacity(int minCapacity) {
 private void grow(int minCapacity) {
     // oldCapacity  则代表 的是数据的容量
     int oldCapacity = elementData.length;
+    // newCapacity  则是1.5 倍的oldCapacity，这里使用的位移操作
     int newCapacity = oldCapacity + (oldCapacity >> 1);
     if (newCapacity - minCapacity < 0)
         newCapacity = minCapacity;
