@@ -24,6 +24,8 @@ END
 
 总的来说case 搜索功能要来的强大一些，因为when后面的对比的值可以为任意的字段，而简单case函数则只能是与之对比的只能是case后面跟的字段
 
+#### 1.2 示例
+
 ```sql
 select 
   case date_format(last_login,'%Y-%m-%d')
