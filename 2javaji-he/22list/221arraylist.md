@@ -38,7 +38,10 @@ private void ensureCapacityInternal(int minCapacity) {
 private void ensureExplicitCapacity(int minCapacity) {
   // 这个变量表示修改list被修改的次数，用于遍历中，会引发 ConcurrentModificationException异常的出现
   modCount++;
-  // size 是list实际含有的元素的个数，而不是数据的大小
+  /**
+   * size 是list实际含有的元素的个数，而不是数据的大小
+   * 这个判断是，如果size 大于数组的容量则进行扩容，否则则不用管
+  **/
   if (minCapacity - elementData.length > 0){
       grow(minCapacity);
   }
