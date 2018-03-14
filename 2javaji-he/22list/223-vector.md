@@ -13,6 +13,13 @@
  public Vector() {
    this(10);
  }
+
+ // 扩容的代码，如果我们不指定扩容的size，则依据默认的size进行扩容 
+ private void grow(int minCapacity) {
+   int oldCapacity = elementData.length;
+   int newCapacity = oldCapacity + ((capacityIncrement > 0) ?
+                                          capacityIncrement : oldCapacity);
+ } 
 ```
 
 如上方式我们要学会，为不同的需求提供不同的构造函数
