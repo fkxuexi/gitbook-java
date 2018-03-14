@@ -96,7 +96,9 @@ private void grow(int minCapacity) {
         iterator.remove(); 
       }
      ```
+ - 2.indexOf、remove(Object o)、contains
  
+     这个里面进行的判断均是使用的是equals来判断的，同时检测到第一个就终止判断，所以想使用contains来对list数据进行全部替换是达不到要求的
 
 
 
