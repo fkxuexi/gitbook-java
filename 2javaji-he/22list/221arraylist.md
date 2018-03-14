@@ -27,7 +27,7 @@ public boolean add(E e) {
 } 
  
  
-// 需要特别注意的是：除开初始化之外：minCapacity = size 
+// 需要特别注意的是：除开初始化之外：minCapacity = size + 1
 private void ensureCapacityInternal(int minCapacity) {
   // 如果是空数组的话，则采用默认的容量 
   if (elementData == DEFAULTCAPACITY_EMPTY_ELEMENTDATA) {
