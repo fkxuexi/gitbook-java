@@ -28,7 +28,7 @@ private void ensureCapacityInternal(int minCapacity) {
 }
  
 private void ensureExplicitCapacity(int minCapacity) {
-  // 这个变量表示修改list被修改的次数
+  // 这个变量表示修改list被修改的次数，用于遍历中，会引发 ConcurrentModificationException异常的出现
   modCount++;
   // overflow-conscious code
   if (minCapacity - elementData.length > 0){
