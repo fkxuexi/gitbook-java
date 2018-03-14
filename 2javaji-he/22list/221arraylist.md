@@ -88,8 +88,11 @@ private void grow(int minCapacity) {
      
      ```java
       while (iterator.hasNext()){
-        // ConcurrentModificationException
+        // ConcurrentModificationException 这个便是由modCount这个变量控制的，
         list.remove(next);
+        // ConcurrentModificationException  只要有对list的修改都会报错
+        list.add(10);
+        // 这种方式则不会
         iterator.remove(); 
       }
      ```
