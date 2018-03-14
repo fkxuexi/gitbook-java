@@ -88,8 +88,9 @@ private void grow(int minCapacity) {
      
      ```java
       while (iterator.hasNext()){
-           list.remove(next);
-            iterator.remove(); 
+        // ConcurrentModificationException
+        list.remove(next);
+        iterator.remove(); 
       }
      ```
  
