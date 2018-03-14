@@ -65,7 +65,13 @@ private void grow(int minCapacity) {
     elementData = Arrays.copyOf(elementData, newCapacity);
 }
 ```
-
-
-
 - ArrayList 遍历
+
+```java
+
+
+```
+
+
+
+
