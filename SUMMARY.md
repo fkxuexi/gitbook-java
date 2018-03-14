@@ -19,4 +19,5 @@
       * [2.3.1HashMap](2javaji-he/23map/231hashmap.md)
 * 二、mysql数据库
   * [1.mysql 中的case when](1mysql-zhong-de-when-case.md)
+  * [2.自定义变量](2zi-ding-yi-bian-liang.md)
 
