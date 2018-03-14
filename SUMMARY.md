@@ -10,4 +10,5 @@
     * [1.2.1.synchronized](1javabing-fa/12zi-yuan-zheng-yong/121synchronized.md)
 * [2.java集合](2javaji-he.md)
   * [2.1.Collection 对决Collections](2javaji-he/21javaji-he-jian-jie.md)
+  * [2.2.List ](2javaji-he/22list.md)
 
