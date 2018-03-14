@@ -16,8 +16,15 @@
   
 ```java
 // 初始化容量
- private static final int DEFAULT_CAPACITY = 10;
+private static final int DEFAULT_CAPACITY = 10;
  
+// 如果是空数组的话，则采用默认的容量 
+private void ensureCapacityInternal(int minCapacity) {
+  if (elementData == DEFAULTCAPACITY_EMPTY_ELEMENTDATA) {
+     minCapacity = Math.max(DEFAULT_CAPACITY, minCapacity);
+  }
+    ensureExplicitCapacity(minCapacity);
+}
  
 ```
 
