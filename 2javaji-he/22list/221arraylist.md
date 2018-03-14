@@ -78,7 +78,7 @@ private void grow(int minCapacity) {
         ```java
         int size = list.size();
         for(int i = 0 ; i < size ;i++){
-            //如果在这里进行元素的删除，会报IndexOutOfBoundsException
+            //如果在这里进行元素的删除，会报IndexOutOfBoundsException的异常
         }
         ```
  
