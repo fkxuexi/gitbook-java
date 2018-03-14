@@ -27,6 +27,14 @@ private void ensureCapacityInternal(int minCapacity) {
     ensureExplicitCapacity(minCapacity);
 }
  
+private void ensureExplicitCapacity(int minCapacity) {
+  // 这个变量表示修改list被修改的次数
+  modCount++;
+  // overflow-conscious code
+  if (minCapacity - elementData.length > 0){
+      grow(minCapacity);
+  }
+} 
 ```
 
 
