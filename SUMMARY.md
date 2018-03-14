@@ -17,5 +17,6 @@
       * [2.2.3 Vector](2javaji-he/22list/223-vector.md)
     * [2.3.Map](2javaji-he/23map.md)
       * [2.3.1HashMap](2javaji-he/23map/231hashmap.md)
-
+* 二、mysql数据库
+  * [1.mysql 中的when case](1mysql-zhong-de-when-case.md)
 
