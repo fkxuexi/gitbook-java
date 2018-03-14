@@ -58,6 +58,7 @@ private void grow(int minCapacity) {
     // 如果 新的容量小于 size 则新容量为size，这个判断主要是我们使用自己设置的容量来初始化List的时候使用
     if (newCapacity - minCapacity < 0)
         newCapacity = minCapacity;
+    // 这种情况无需考虑，不会有这么多的数据往list里面存放
     if (newCapacity - MAX_ARRAY_SIZE > 0)
         newCapacity = hugeCapacity(minCapacity);
     // minCapacity is usually close to size, so this is a win:
