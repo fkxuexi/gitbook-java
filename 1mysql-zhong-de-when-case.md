@@ -4,12 +4,22 @@
 
 - 简单case函数：
 
-```sql
+```sql 
 CASE sex 
   when '1' then '男'
   when '2' then '女'
   else '其他'
 END   
+```
+
+- case 搜索函数：
+
+```
+CASE 
+  when sex = 1 then '男'
+  when sex = 2 then '女'
+  else '其他'
+END  
 ```
 
 
