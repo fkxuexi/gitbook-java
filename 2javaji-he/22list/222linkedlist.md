@@ -24,5 +24,4 @@ if (index < (size >> 1)) {
         x = x.prev;
     return x;
 }
-
 ```
