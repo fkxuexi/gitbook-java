@@ -26,7 +26,6 @@ public boolean add(E e) {
     return true;
 } 
  
- 
 // 需要特别注意的是：除开初始化之外：minCapacity = size + 1
 private void ensureCapacityInternal(int minCapacity) {
   // 如果是空数组的话，则采用默认的容量 
@@ -67,12 +66,18 @@ private void grow(int minCapacity) {
 ```
 - ArrayList 遍历
 
-```java
-// 这种是采用的是Iterator的方式遍历的，使用这种方式遍历在遍历的同时可以删除数据
-private class Itr implements Iterator<E>{}
+这个地方的代码就没有必要在贴了，毕竟写的艺术在高超，也只是一个遍历数组的方式而已，
 
-```
 
+### 2.需要注意的坑：
+
+ - 1.遍历带来的坑：
+ 
+     - for 循环需要注意的是：
+     
+         
+ 
+ 
 
 
 
