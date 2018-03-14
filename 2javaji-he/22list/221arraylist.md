@@ -26,6 +26,8 @@ public boolean add(E e) {
     return true;
 } 
  
+ 
+// 需要特别注意的是：除开初始化之外：minCapacity = size 
 private void ensureCapacityInternal(int minCapacity) {
   // 如果是空数组的话，则采用默认的容量 
   if (elementData == DEFAULTCAPACITY_EMPTY_ELEMENTDATA) {
@@ -53,6 +55,7 @@ private void grow(int minCapacity) {
     int oldCapacity = elementData.length;
     // newCapacity  则是1.5 倍的oldCapacity，这里使用的位移操作
     int newCapacity = oldCapacity + (oldCapacity >> 1);
+    //
     if (newCapacity - minCapacity < 0)
         newCapacity = minCapacity;
     if (newCapacity - MAX_ARRAY_SIZE > 0)
