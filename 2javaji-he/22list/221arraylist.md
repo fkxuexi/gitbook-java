@@ -68,7 +68,8 @@ private void grow(int minCapacity) {
 - ArrayList 遍历
 
 ```java
-
+// 这种是采用的是Iterator的方式遍历的，使用这种方式遍历在遍历的同时可以删除数据
+private class Itr implements Iterator<E>{}
 
 ```
 
