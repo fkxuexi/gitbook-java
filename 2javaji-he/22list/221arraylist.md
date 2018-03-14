@@ -17,6 +17,14 @@
 ```java
 // 初始化容量
 private static final int DEFAULT_CAPACITY = 10;
+// 最大的容量为21亿左右即为int的取值返回的正数的部分
+public static final int   MAX_VALUE = 0x7fffffff;
+ 
+public boolean add(E e) {
+    ensureCapacityInternal(size + 1);  
+    elementData[size++] = e;
+    return true;
+} 
  
 private void ensureCapacityInternal(int minCapacity) {
   // 如果是空数组的话，则采用默认的容量 
@@ -30,7 +38,7 @@ private void ensureCapacityInternal(int minCapacity) {
 private void ensureExplicitCapacity(int minCapacity) {
   // 这个变量表示修改list被修改的次数，用于遍历中，会引发 ConcurrentModificationException异常的出现
   modCount++;
-  // overflow-conscious code
+  // 这
   if (minCapacity - elementData.length > 0){
       grow(minCapacity);
   }
