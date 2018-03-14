@@ -14,8 +14,11 @@
 
 - 2.ArrayList 扩容的以及复制方式
   
-```
+```java
+// 初始化容量
  private static final int DEFAULT_CAPACITY = 10;
+ 
+ 
 ```
 
 
