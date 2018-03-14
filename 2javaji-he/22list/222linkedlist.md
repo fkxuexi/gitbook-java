@@ -12,4 +12,19 @@ for (Node<E> x = first; x != null; x = x.next) {
       return index;
   index++;
 }
+
+
+// 这个代码真的写的用心，
+if (index < (size >> 1)) {
+    Node<E> x = first;
+    for (int i = 0; i < index; i++)
+        x = x.next;
+    return x;
+} else {
+    Node<E> x = last;
+    for (int i = size - 1; i > index; i--)
+        x = x.prev;
+    return x;
+}
+
 ```
