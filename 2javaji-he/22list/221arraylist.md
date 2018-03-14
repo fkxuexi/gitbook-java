@@ -43,6 +43,9 @@ private void ensureExplicitCapacity(int minCapacity) {
       grow(minCapacity);
   }
 } 
+
+// 核心的扩容代码：
+
 ```
 
 
