@@ -80,6 +80,8 @@ private void grow(int minCapacity) {
         for(int i = 0 ; i < size ;i++){
             //如果在这里进行元素的删除，会报IndexOutOfBoundsException的异常
         }
+        // 在这种循环里面删除是没有问题的，但是这种效率会比较第一点，因为在循环的过程中一直要调用list.size()方法，
+        for(int i = 0 ; i < list.size(); i++){}
         ```
  
  
