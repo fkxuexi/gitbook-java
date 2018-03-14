@@ -49,7 +49,7 @@ private void ensureExplicitCapacity(int minCapacity) {
 
 // 核心的扩容代码：
 private void grow(int minCapacity) {
-    // 
+    // oldCapacity  则代表 的是数据的容量
     int oldCapacity = elementData.length;
     int newCapacity = oldCapacity + (oldCapacity >> 1);
     if (newCapacity - minCapacity < 0)
