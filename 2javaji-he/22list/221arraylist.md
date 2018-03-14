@@ -9,7 +9,7 @@
   // 这种方式貌似是我们没有指定 容量，其实在添加第一个元素的时候，便初始化了容量了
   public ArrayList() {}
   
-  
+   public ArrayList(Collection<? extends E> c) {}
   ```
       
 
