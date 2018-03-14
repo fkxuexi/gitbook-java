@@ -12,7 +12,7 @@
   public ArrayList(Collection<? extends E> c) {}
   ```   
 
-- 2.ArrayList 扩容的以及复制方式
+- 2.ArrayList 扩容的以及复制方式 (1.5 倍的扩容方式)
   
 ```java
 // 初始化容量
