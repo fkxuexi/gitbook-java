@@ -15,12 +15,5 @@
  LinkedList|链表实现的|查询速断慢，但增删效率高，非线程安全
  Vector|数组实现的|查询快，增删效率低，线程安全
  
- 
- ### 3.需要去关注的点：
- 
- - ArrayList 初始化容量以及扩容
-   
-   初始化容量：```  private static final int DEFAULT_CAPACITY = 10;```
- 
- - ArrayList 遍历
+
  
