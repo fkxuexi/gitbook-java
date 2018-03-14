@@ -18,11 +18,12 @@
 // 初始化容量
 private static final int DEFAULT_CAPACITY = 10;
  
-// 如果是空数组的话，则采用默认的容量 
 private void ensureCapacityInternal(int minCapacity) {
+  // 如果是空数组的话，则采用默认的容量 
   if (elementData == DEFAULTCAPACITY_EMPTY_ELEMENTDATA) {
      minCapacity = Math.max(DEFAULT_CAPACITY, minCapacity);
   }
+  // 否则则进行扩容
     ensureExplicitCapacity(minCapacity);
 }
  
