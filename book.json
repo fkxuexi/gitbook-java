@@ -1,5 +1,14 @@
 {
-    "plugins": [ "theme-api" ],
+    "plugins": [ "theme-api" ,"katex","splitter","toggle-chapters"],
+    "title" : "python 2 machine learning",
+    "author" : "陈涛，top.fkxuexi",
+    "description" : "java相关的知识点",
+    "language" : "zh-hans",
+    "links" : {
+        "sidebar" : {
+            "博客连接" : "http://top.fkxuexi.com"
+        }
+    },
     "pluginsConfig": {
         "theme-api": {
             "languages": [
@@ -16,3 +25,4 @@
         }
     }
 }
+
