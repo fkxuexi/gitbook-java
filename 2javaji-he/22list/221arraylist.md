@@ -83,7 +83,15 @@ private void grow(int minCapacity) {
         // 在这种循环里面删除是没有问题的，但是这种效率会比较第一点，因为在循环的过程中一直要调用list.size()方法，
         for(int i = 0 ; i < list.size(); i++){}
         ```
- 
+        
+     - Iterator的遍历方式需要注意的：
+     
+     ```java
+      while (iterator.hasNext()){
+           list.remove(next);
+            iterator.remove(); 
+      }
+     ```
  
 
 
