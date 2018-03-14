@@ -6,4 +6,4 @@
     - List
     - Queue
 
-    
+- Collections 则集合的一个工具类和帮助类    
