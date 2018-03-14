@@ -8,11 +8,16 @@
   public ArrayList(int initialCapacity) {}
   // 这种方式貌似是我们没有指定 容量，其实在添加第一个元素的时候，便初始化了容量了
   public ArrayList() {}
-  
-   public ArrayList(Collection<? extends E> c) {}
-  ```
-      
+  // 用一个集合来初始化
+  public ArrayList(Collection<? extends E> c) {}
+  ```   
 
 - 2.ArrayList 扩容的以及复制方式
+  
+```
+ private static final int DEFAULT_CAPACITY = 10;
+```
+
+
 
 - ArrayList 遍历
