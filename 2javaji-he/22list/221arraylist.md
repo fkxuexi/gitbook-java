@@ -8,6 +8,8 @@
   public ArrayList(int initialCapacity) {}
   // 这种方式貌似是我们没有指定 容量，其实在添加第一个元素的时候，变初始化了容量了
   public ArrayList() {}
+  
+  
   ```
       
 
