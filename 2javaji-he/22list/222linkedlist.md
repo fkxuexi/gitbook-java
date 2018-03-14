@@ -14,7 +14,7 @@ for (Node<E> x = first; x != null; x = x.next) {
 }
 
 
-// 这个代码真的写的用心，
+// 这个代码真的写的用心，折半查找
 if (index < (size >> 1)) {
     Node<E> x = first;
     for (int i = 0; i < index; i++)
