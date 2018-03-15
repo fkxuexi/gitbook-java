@@ -19,5 +19,7 @@ static final int TREEIFY_THRESHOLD = 8;
 static final int UNTREEIFY_THRESHOLD = 6;
 // 当桶中节点转换成树是，table最小的容量
 static final int MIN_TREEIFY_CAPACITY = 64;
+// 阈值，当（capacity * load factor）大于这个阈值时进行扩容
+int threshold;
 ```
 
