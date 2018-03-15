@@ -1,6 +1,6 @@
 {
-    "plugins": [ "theme-api" ,"katex","splitter","toggle-chapters"],
-    "title" : "python 2 machine learning",
+    "plugins": [ "theme-api" ,"splitter"],
+    "title" : "java复习学习笔记",
     "author" : "陈涛，top.fkxuexi",
     "description" : "java相关的知识点",
     "language" : "zh-hans",
