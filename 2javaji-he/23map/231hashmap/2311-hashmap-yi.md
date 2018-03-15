@@ -7,6 +7,7 @@ hashMap本质是一个hash桶，但当桶太过于大的时候就会转换成树
 - ##### 1.1.初始化相关容量
 
 ```java
-
+// 初始化容量，一定要是2的幂才可以
+static final int DEFAULT_INITIAL_CAPACITY = 1 << 4; // aka 16
 ```
 
