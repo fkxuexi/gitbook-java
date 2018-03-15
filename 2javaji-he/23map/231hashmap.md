@@ -26,3 +26,12 @@ static final int UNTREEIFY_THRESHOLD = 6;
 
 static final int MIN_TREEIFY_CAPACITY = 64;
 ```
+
+- ##### 1.2.核心方法解析：
+
+- put
+
+```java
+
+```
+
