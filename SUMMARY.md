@@ -18,8 +18,8 @@
     * [2.3.Map](2javaji-he/23map.md)
       * [2.3.1HashMap](2javaji-he/23map/231hashmap.md)
         * [2.3.1.1 HashMap 一](2javaji-he/23map/231hashmap/2311-hashmap-yi.md)
-* 二、mysql数据库
-  * 1.1.sql语句
+* [二、mysql数据库](er-3001-mysql-shu-ju-ku.md)
+  * [1.1.sql语句](er-3001-mysql-shu-ju-ku/11sqlyu-ju.md)
     * [1.1.mysql 中的case when](1mysql-zhong-de-when-case.md)
     * [1.2.自定义变量](2zi-ding-yi-bian-liang.md)
 
