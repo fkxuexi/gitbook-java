@@ -15,5 +15,7 @@ static final int MAXIMUM_CAPACITY = 1 << 30;
 static final float DEFAULT_LOAD_FACTOR = 0.75f;
 // 桶中的节点数量超过8 则使用转换成树来存储
 static final int TREEIFY_THRESHOLD = 8;
+// 当进行resize()操作时，桶中节点小于这个值，则树转换为链表
+static final int UNTREEIFY_THRESHOLD = 6;
 ```
 
