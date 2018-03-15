@@ -14,4 +14,9 @@ hashMap本质是一个hash桶，但当桶太过于大的时候就会转换成树
 static final int DEFAULT_INITIAL_CAPACITY = 1 << 4; // aka 16
 // 最大容量
 static final int MAXIMUM_CAPACITY = 1 << 30;
+/**
+ * The load factor used when none specified in constructor.
+ * 加载因子
+*/
+static final float DEFAULT_LOAD_FACTOR = 0.75f;
 ```
