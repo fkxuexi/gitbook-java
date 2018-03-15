@@ -2,5 +2,7 @@
 
 - hashMap 是线程不安全的
 
+- 数组+链表+红黑树
+
 ![](/assets/hash_map_datastruct.png)
 
