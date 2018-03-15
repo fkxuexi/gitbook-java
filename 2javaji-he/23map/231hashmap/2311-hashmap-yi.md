@@ -35,7 +35,7 @@ final V putVal(int hash, K key, V value, boolean onlyIfAbsent,boolean evict) {
     if ((tab = table) == null || (n = tab.length) == 0)
         // 扩容
         n = (tab = resize()).length;
-        // (n-1) & hash 是确定放在哪一个桶中，数组下标从0开始，所以这里是n-1
+        // (n-1) & hash 是确定放在哪一个桶中，数组下标从0开始，所以这里是n-1，此时桶为空，则新建节点
     if ((p = tab[i = (n - 1) & hash]) == null)
         tab[i] = newNode(hash, key, value, null);
     else {
