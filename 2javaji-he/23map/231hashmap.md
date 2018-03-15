@@ -19,4 +19,6 @@ static final int MAXIMUM_CAPACITY = 1 << 30;
  * 加载因子，这是一个非常重要的衡量HashMap在扩容时候的一个指标
 */
 static final float DEFAULT_LOAD_FACTOR = 0.75f;
+// hash桶中存储的是链表，但当链表的层数达到8，则使用树来代替链表
+static final int TREEIFY_THRESHOLD = 8;
 ```
