@@ -12,4 +12,6 @@ hashMap本质是一个hash桶，但当桶太过于大的时候就会转换成树
 * 初始容量为16，且容量必须2的倍数
 */
 static final int DEFAULT_INITIAL_CAPACITY = 1 << 4; // aka 16
+// 最大容量
+static final int MAXIMUM_CAPACITY = 1 << 30;
 ```
