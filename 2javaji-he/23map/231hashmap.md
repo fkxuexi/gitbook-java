@@ -21,4 +21,6 @@ static final int MAXIMUM_CAPACITY = 1 << 30;
 static final float DEFAULT_LOAD_FACTOR = 0.75f;
 // hash桶中存储的是链表，但当链表的层数达到8，则使用树来代替链表
 static final int TREEIFY_THRESHOLD = 8;
+// 当进行resize()操作的时候如果树的层数小于6，则使用链表
+static final int UNTREEIFY_THRESHOLD = 6;
 ```
