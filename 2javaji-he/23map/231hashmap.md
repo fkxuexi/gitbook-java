@@ -23,4 +23,6 @@ static final float DEFAULT_LOAD_FACTOR = 0.75f;
 static final int TREEIFY_THRESHOLD = 8;
 // 当进行resize()操作的时候如果树的层数小于6，则使用链表
 static final int UNTREEIFY_THRESHOLD = 6;
+
+static final int MIN_TREEIFY_CAPACITY = 64;
 ```
