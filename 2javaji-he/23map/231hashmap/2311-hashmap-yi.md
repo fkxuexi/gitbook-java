@@ -17,5 +17,7 @@ static final float DEFAULT_LOAD_FACTOR = 0.75f;
 static final int TREEIFY_THRESHOLD = 8;
 // 当进行resize()操作时，桶中节点小于这个值，则树转换为链表
 static final int UNTREEIFY_THRESHOLD = 6;
+// 当桶中节点转换成树是，table最小的容量
+static final int MIN_TREEIFY_CAPACITY = 64;
 ```
 
