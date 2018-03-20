@@ -22,4 +22,6 @@
   * [1.1.sql语句](er-3001-mysql-shu-ju-ku/11sqlyu-ju.md)
     * [1.1.mysql 中的case when](1mysql-zhong-de-when-case.md)
     * [1.2.自定义变量](2zi-ding-yi-bian-liang.md)
+* [三、redis](san-3001-redis.md)
+  * [1、redis的java api](san-3001-redis/1redisde-javaapi.md)
 
