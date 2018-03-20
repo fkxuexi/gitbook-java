@@ -13,11 +13,13 @@
     * [2.1.Collection 对决Collections](2javaji-he/21javaji-he-jian-jie.md)
     * [2.2.List ](2javaji-he/22list.md)
       * [2.2.1.ArrayList](2javaji-he/22list/221arraylist.md)
-    * [2.3.Map](2javaji-he/23map.md)
-      * [2.3.1HashMap](2javaji-he/23map/231hashmap.md)
-          * [2.3.1.1 HashMap 一](2javaji-he/23map/231hashmap/2311-hashmap-yi.md)
       * [2.2.2.LinkedList](2javaji-he/22list/222linkedlist.md)
       * [2.2.3 Vector](2javaji-he/22list/223-vector.md)
+
+    * [2.3.Map](2javaji-he/23map.md)
+      * [2.3.1HashMap](2javaji-he/23map/231hashmap.md)
+        * [2.3.1.1 HashMap 一](2javaji-he/23map/231hashmap/2311-hashmap-yi.md)
+      
 * [二、mysql数据库](er-3001-mysql-shu-ju-ku.md)
   * [1.1.sql语句](er-3001-mysql-shu-ju-ku/11sqlyu-ju.md)
     * [1.1.mysql 中的case when](1mysql-zhong-de-when-case.md)
