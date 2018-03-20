@@ -11,6 +11,7 @@
       * [1.2.1.synchronized](1javabing-fa/12zi-yuan-zheng-yong/121synchronized.md)
       * [1.2.2.volatile](1javabing-fa/12zi-yuan-zheng-yong/122volatile.md)
     * [1.3.线程间的通信](1javabing-fa/13xian-cheng-jian-de-tong-xin.md)
+      * [1.3.1.等待通知机制](1javabing-fa/13xian-cheng-jian-de-tong-xin/131deng-dai-tong-zhi-ji-zhi.md)
   * [2.java集合](2javaji-he.md)
     * [2.1.Collection 对决Collections](2javaji-he/21javaji-he-jian-jie.md)
     * [2.2.List ](2javaji-he/22list.md)
