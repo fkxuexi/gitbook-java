@@ -9,6 +9,7 @@
       * [1.1.3 priority 优先了吗？](1javabing-fa/111-bing-fa-ji-chu/113-priority-bing-bu-you-xian.md)
     * [1.2.资源争用](1javabing-fa/12zi-yuan-zheng-yong.md)
       * [1.2.1.synchronized](1javabing-fa/12zi-yuan-zheng-yong/121synchronized.md)
+      * [1.2.2.volatile](1javabing-fa/12zi-yuan-zheng-yong/122volatile.md)
   * [2.java集合](2javaji-he.md)
     * [2.1.Collection 对决Collections](2javaji-he/21javaji-he-jian-jie.md)
     * [2.2.List ](2javaji-he/22list.md)
@@ -18,7 +19,6 @@
     * [2.3.Map](2javaji-he/23map.md)
       * [2.3.1HashMap](2javaji-he/23map/231hashmap.md)
         * [2.3.1.1 HashMap 一](2javaji-he/23map/231hashmap/2311-hashmap-yi.md)
-      
 * [二、mysql数据库](er-3001-mysql-shu-ju-ku.md)
   * [1.1.sql语句](er-3001-mysql-shu-ju-ku/11sqlyu-ju.md)
     * [1.1.mysql 中的case when](1mysql-zhong-de-when-case.md)
