@@ -14,7 +14,7 @@
     * [2.2.List ](2javaji-he/22list.md)
       * [2.2.1.ArrayList](2javaji-he/22list/221arraylist.md)
     * [2.3.Map](2javaji-he/23map.md)
-        * [2.3.1HashMap](2javaji-he/23map/231hashmap.md)
+      * [2.3.1HashMap](2javaji-he/23map/231hashmap.md)
           * [2.3.1.1 HashMap 一](2javaji-he/23map/231hashmap/2311-hashmap-yi.md)
       * [2.2.2.LinkedList](2javaji-he/22list/222linkedlist.md)
       * [2.2.3 Vector](2javaji-he/22list/223-vector.md)
